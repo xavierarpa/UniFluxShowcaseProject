@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Source/Code/Modules/Bootstrap/Bootstrap.unity
+    guid: e3a6271214e6d48069e20bf8280db1ec
+  - enabled: 1
+    path: Assets/Source/Code/Modules/Camera/Camera.unity
+    guid: e8e06acd181099744b60d30495d885ed
+  - enabled: 1
+    path: Assets/Source/Code/Modules/EventSystem/EventSystem.unity
+    guid: 57162841a653b4e528a62c78f44b5ffb
+  - enabled: 1
+    path: Assets/Source/Code/Modules/Ground/Ground.unity
+    guid: 78351ed81959fe441ab597ab91fafe89
+  - enabled: 1
+    path: Assets/Source/Code/Modules/Lamp/Lamps.unity
+    guid: 94497dcb887ee114288b38a2199ac785
+  - enabled: 1
+    path: Assets/Source/Code/Modules/Map/Map.unity
+    guid: da10b48b7cfd14c518871d762b146646
+  - enabled: 1
+    path: Assets/Source/Code/Modules/Player/Player.unity
+    guid: 49d5dfe27589f224594ad25eec5bfa2f
+  - enabled: 1
+    path: Packages/com.kingdox.uniflux/Benchmark/General/UniFlux.Benchmark.General.unity
+    guid: 281f02957352247ffbeae02b70873d2c
+  - enabled: 1
+    path: Packages/com.kingdox.uniflux/Benchmark/Nest/UniFlux.Benchmark.Nested.unity
+    guid: 8eb905bf9f9bf418f8c8590f39b3296a
+  - enabled: 1
+    path: Packages/com.kingdox.uniflux.input/Runtime/UniFlux.Input.unity
+    guid: d2a88e549f3bd43988f15dfd8e7a41c7
+  - enabled: 1
+    path: Packages/com.kingdox.uniflux/Samples/UniFlux.Sample.1/UniFlux.Sample.1.unity
+    guid: 659cc7219c81e40c59c86a2d738fffef
+  - enabled: 1
+    path: Packages/com.kingdox.uniflux/Samples/UniFlux.Sample.2/UniFlux.Sample.2.unity
+    guid: b750cba0579f349558addbc10849de93
+  - enabled: 1
+    path: Packages/com.kingdox.uniflux/Samples/UniFlux.Sample.3/UniFlux.Sample.3.unity
+    guid: 15f48461fa9eb42b1896ccf4b8bd648b
+  - enabled: 1
+    path: Packages/com.kingdox.uniflux/Samples/UniFlux.Sample.4/UniFlux.Sample.4.unity
+    guid: 73dac38e5651b4006a284ac8463b0c3c
+  - enabled: 1
+    path: Packages/com.kingdox.uniflux/Samples/UniFlux.Sample.5/UniFlux.Sample.5.unity
+    guid: 42c5e86422cfd424f9d6a52c311c2244
+  - enabled: 1
+    path: Packages/com.kingdox.uniflux/Samples/UniFlux.Sample.Experimental/UniFlux.Sample.Experimental.unity
+    guid: 1fa96e309b0d74a4d8d1f3b49cb4ebb1
+  - enabled: 1
+    path: Packages/com.kingdox.uniflux.scene/Runtime/UniFlux.Scene.unity
+    guid: 3c2d68bfc8bac42bb8c8035514b7cf7c
+  m_configObjects: {}
