@@ -5,8 +5,8 @@ here some media files:
 
 ![Files](/Media/Files.png)
 
-![Hierarchy](/Media/Hierarchy.mov)
+![Hierarchy](/Media/Hierarchy.gif)
 
-![Inspector](/Media/Inspector.mov)
+![Inspector](/Media/Inspector.gif)
 
-![Playing](/Media/Playing.mov)
+![Playing](/Media/Playing.gif)
