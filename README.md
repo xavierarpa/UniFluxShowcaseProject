@@ -1,6 +1,8 @@
 # UniFluxShowcaseProject
 A tiny example of using UniFlux
 
+https://github.com/kingdox/UniFlux
+
 here some media files:
 ![Playing](/Media/Playing.gif)
 
