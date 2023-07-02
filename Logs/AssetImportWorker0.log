@@ -403,3 +403,19 @@ Received Import Request.
 Start importing Assets/Source/Code/Service/Service.Player.cs using Guid(d7c7a8e683768c14ca975bc4938bde14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faffef3d2ea80178a08195b22edd94c') in 0.002338 seconds 
   Import took 0.006105 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 12748.864419 seconds.
+  path: Assets/Source/ScriptableObjects
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Source/ScriptableObjects using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60841aa7fc4bbe34f59678e6483d532b') in 0.002778 seconds 
+  Import took 0.011640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.552970 seconds.
+  path: Assets/Source/ScriptableObjects/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Source/ScriptableObjects/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba6971f334922c3f1b8a45a124b9d62') in 0.291258 seconds 
+  Import took 0.298104 seconds .
+
