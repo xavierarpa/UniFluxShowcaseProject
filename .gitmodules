@@ -1,0 +1,9 @@
+[submodule "Assets/Plugin/UniFlux"]
+	path = Assets/Plugin/UniFlux
+	url = https://github.com/kingdox/UniFlux.git
+[submodule "Assets/Plugin/UniFlux.Input"]
+	path = Assets/Plugin/UniFlux.Input
+	url = https://github.com/kingdox/UniFlux.Input.git
+[submodule "Assets/Plugin/UniFlux.Scene"]
+	path = Assets/Plugin/UniFlux.Scene
+	url = https://github.com/kingdox/UniFlux.Scene.git
