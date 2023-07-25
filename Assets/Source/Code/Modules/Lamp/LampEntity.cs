@@ -8,6 +8,7 @@ public sealed class LampEntity : MonoFlux
     [field: SerializeField] public MeshRenderer MeshRenderer { get; private set; }
     [SerializeField] private float _distanceToActive = default;
     private bool _isOn;
+    private Material _material;
     private void Awake()
     {
         OnChangeMaterial();
@@ -31,8 +32,6 @@ public sealed class LampEntity : MonoFlux
     {
         return (transform.position - tr.position).magnitude <= _distanceToActive;
     }
-    [Flux("Light.OnChangeMaterialOn")] private void OnChangeMaterialOn() => OnChangeMaterial();
-    [Flux("Light.OnChangeMaterialOff")] private void OnChangeMaterialOff() => OnChangeMaterial();
     private void OnChangeMaterial()
     {
         if(_isOn) TurnOn();
@@ -40,10 +39,12 @@ public sealed class LampEntity : MonoFlux
     }
     private void TurnOn() 
     {
-        MeshRenderer.material = "Lamp.MaterialOn".Dispatch<Material>();
+        "Material.Light.On".GetState(out _material);
+        MeshRenderer.material = _material;
     }
     private void TurnOff()
     {
-        MeshRenderer.material = "Lamp.MaterialOff".Dispatch<Material>();
+        "Material.Light.Off".GetState(out _material);
+        MeshRenderer.material = _material;
     }
 }
