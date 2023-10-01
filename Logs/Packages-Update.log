@@ -48,3 +48,13 @@ The following packages were added:
   com.unity.timeline@1.4.8
   com.unity.ugui@1.0.0
   com.unity.xr.legacyinputhelpers@2.1.8
+
+=== Sun Oct  1 16:31:39 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ai.navigation@1.1.4
+The following packages were updated:
+  com.unity.render-pipelines.universal from version 10.8.1 to 14.0.8
